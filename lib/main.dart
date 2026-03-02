@@ -55,7 +55,7 @@ class CalculatorModel {
           throw ArgumentError("Nulliga ei saa jagada");
         }
       default:
-        throw ArgumentError("Vale operaator");
+        throw ArgumentError("Viga");
     }
   }
 }
